@@ -30,6 +30,21 @@ explain here:
 `\.` Escaped Character
 `-` Character
 `+` Qualifier
+`([a-z\.]{2,6})` Group 3 has multiple tokens together and creates a capture group for extracting a substring and using a backreference. 
+`[]` Character set
+`a-z` Range
+`\.` Escaped Character
+`{2,6}` Quantifier
+`([\/\w \.-]*)` Group 4 has multiple tokens together and creates a cpature gorup fo extracting a substring of or using a backreference.
+`[]` Character set 
+`\/` Escaped Character
+`\w` Word
+`\.` Escaped Character
+`-` Character 
+`*` Qualifier
+`\/` Escaped Character
+`?`Quantifier
+`$` End
 
 
 
@@ -127,6 +142,7 @@ To figure out the number of a particular backreference, scan the regular express
 Lookahead and lookbehind, collectively called “lookaround”, are zero-length assertions 
 
 ## Author
+Github [FogleA10](https://github.com/FogleA10)
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+
 
